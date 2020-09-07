@@ -13,8 +13,10 @@ public class ClientTest {
 		Shoppingcart shoppingcart = new Shoppingcart();
 		
 		
+		
 		Product product1 = new Product("Soap", "88889895", 100);
 		Product product2 = new Product("Shampoo", "89989895", 120);
+		
 		Product product3 = new Product("Cookies", "84449895", 100);
 		
 		//adding three product in shopping cart

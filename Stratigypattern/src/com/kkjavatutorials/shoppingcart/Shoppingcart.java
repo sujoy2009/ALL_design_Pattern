@@ -10,6 +10,7 @@ public class Shoppingcart {
 		productList = new ArrayList<Product>();
 	}
 	
+	
 	public void addProduct(Product product) {
 		productList.add(product);
 	}
