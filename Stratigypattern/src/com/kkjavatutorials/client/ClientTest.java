@@ -20,6 +20,7 @@ public class ClientTest {
 		//adding three product in shopping cart
 		shoppingcart.addProduct(product1);
 		shoppingcart.addProduct(product2);
+		
 		shoppingcart.addProduct(product3);
 		
 		//Proceed to payment Strategy as CreditcardPayment
