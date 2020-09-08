@@ -35,6 +35,7 @@ public class Messagepublisher  implements Subject{
 	        for(Observer observer: observers) {
 	            observer.updateObserver(message);
 	        }
+	        
 	    }
 
 }

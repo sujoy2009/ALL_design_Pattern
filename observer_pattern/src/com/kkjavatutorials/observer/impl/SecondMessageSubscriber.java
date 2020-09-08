@@ -10,3 +10,4 @@ public class SecondMessageSubscriber implements Observer {
 	        System.out.println("Message for Second subscriber :: " + message.getMessage());
 	    }
 }
+

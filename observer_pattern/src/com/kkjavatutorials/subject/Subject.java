@@ -8,3 +8,4 @@ public interface Subject {
 	public void unregister(Observer observer);
 	public void notifyUpdate(Message message);
 }
+

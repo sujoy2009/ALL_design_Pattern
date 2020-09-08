@@ -12,6 +12,7 @@ import com.kkjavatutorials.observer.impl.SecondMessageSubscriber;
  */
 public class ObserverTest {
  
+	
 	public static void main(String[] args) {
 		
 		//Creating Three Subscribers
