@@ -15,7 +15,7 @@ public class ClientTest {
 		/*Decorate BasicBike with Luxury
 		and Sports Features*/
 		System.out.println("------Decorate BasicBike with Luxury and Sports Features-----");
-		Bike sportsLuxuryBike = new sportsbike(new LuxuryBike(new BasicBike()));
+		Bike sportsLuxuryBike = new sportsbike(new LuxuryBike(new LuxuryBike(new BasicBike())));
 		sportsLuxuryBike.assembleBike();
 	}
  
